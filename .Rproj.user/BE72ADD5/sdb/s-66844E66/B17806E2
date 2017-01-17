@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "baseurl = \"/\"\nrelativeurls = true\nlanguageCode = \"en-us\"\ntitle = \"Lithium Theme\"\ntheme = \"hugo-lithium-theme\"\ngoogleAnalytics = \"\"\ndisqusShortname = \"\"\nignoreFiles = [\"\\\\.Rmd$\", \"_files$\", \"_cache$\"]\n\n[permalinks]\n    post = \"/:year/:month/:day/:slug/\"\n\n[[menu.main]]\n    name = \"Syllabus\"\n    url = \"/Syllabus/\"\n[[menu.main]]\n    name = \"Schedule\"\n    url = \"/Schedule/\"\n[[menu.main]]\n    name = \"Source\"\n    url = \"https://github.com/stat385uiuc/sp17\"\n\n[params]\n    description = \"STAT 385 @ UIUC\"\n\n    # options for highlight.js (version, additional languages, and theme)\n    highlightjsVersion = \"9.9.0\"\n    highlightjsLang = [\"r\", \"yaml\"]\n    highlightjsTheme = \"github\"\n\n    [params.logo]\n    text = \"STAT 385 @ UIUC\"\n    #url = \"logo.png\"\n    #width = 50\n    #height = 50\n    #alt = \"Logo\"\n\n",
+    "created" : 1484623587482.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2612859425",
+    "id" : "B17806E2",
+    "lastKnownWriteTime" : 1484627620,
+    "last_content_update" : 1484627620,
+    "path" : "~/BoxSync/stat385_sp17/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

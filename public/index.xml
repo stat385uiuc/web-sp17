@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lithium Theme</title>
+    <link>/index.xml</link>
+    <description>Recent content on Lithium Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Jan 2017 21:48:51 -0700</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Syllabus</title>
+      <link>/syllabus/</link>
+      <pubDate>Tue, 17 Jan 2017 21:48:51 -0700</pubDate>
+      
+      <guid>/syllabus/</guid>
+      <description>
+
+&lt;h1 id=&#34;stat-385-statistics-programming-methods&#34;&gt;STAT 385: Statistics Programming Methods&lt;/h1&gt;
+
+&lt;h4 id=&#34;university-of-illinois-at-urbana-champaign&#34;&gt;&lt;em&gt;University of Illinois at Urbana-Champaign&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h4 id=&#34;spring-2017&#34;&gt;&lt;em&gt;Spring 2017&lt;/em&gt;&lt;/h4&gt;
+
+&lt;h1 id=&#34;location-and-time&#34;&gt;Location and Time&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; Noyes 161&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; Monday, Wednesday, and Friday, 3:00 PM - 3:50 PM&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;course-websites&#34;&gt;Course Websites&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Discussion Forum:&lt;/strong&gt; &lt;a href=&#34;https://piazza.com/illinois/spring2017/stat385/home&#34;&gt;https://piazza.com/illinois/spring2017/stat385/home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Source Code Repository:&lt;/strong&gt;  &lt;a href=&#34;http://github.com/stat385uiuc/sp17&#34;&gt;http://github.com/stat385uiuc/sp17&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;course-staff&#34;&gt;Course Staff&lt;/h1&gt;
+
+&lt;h3 id=&#34;instructor&#34;&gt;Instructor&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Name:&lt;/strong&gt; Stephane Guerrier&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; stephane@illinois.edu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Office:&lt;/strong&gt; 117 Illini Hall&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Office Hours:&lt;/strong&gt; TBA&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;teaching-assistant&#34;&gt;Teaching Assistant&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Name:&lt;/strong&gt; James Balamuta&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; balamut2@illinois.edu&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Office:&lt;/strong&gt; 117 Illini Hall&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Office Hours:&lt;/strong&gt; TBA&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;course-description&#34;&gt;Course Description&lt;/h1&gt;
+
+&lt;p&gt;The world is rapidly evolving to rely on data driven decisions. These decisions
+come from the work a statistician or data scientist presents in his or her
+reports. In order to present an analysis, the analyst needs to be able to
+leverage computing resources through programming to unearth patterns and models
+that exist within data sets. As a result, statisticians and data scientists must
+be savvy to programming methods that are useful to the wide variety of analysis
+that they will be expected to perform.&lt;/p&gt;
+
+&lt;p&gt;For the focus of the course, fundamental programming techniques and
+considerations will be introduced. Students will learn one of the leading
+statistical programming languages in depth and will be well positioned to easily
+learn others based on general principles. With this in mind, the course provides
+a framework for writing statistical algorithms through the creation of functions
+and object oriented programming. Students will also create dynamic reports that
+encapsulate their code.&lt;/p&gt;
+
+&lt;h1 id=&#34;course-objectives&#34;&gt;Course Objectives&lt;/h1&gt;
+
+&lt;p&gt;After completing the course, students should be able to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Analyze and discuss the meaning behind lines of code;&lt;/li&gt;
+&lt;li&gt;Construct implementations of a statistical algorithm within a statistical
+computing environment;&lt;/li&gt;
+&lt;li&gt;Explain fundamental computing theory as it applies within the domain of
+Statistics.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;course-content&#34;&gt;Course Content&lt;/h1&gt;
+
+&lt;p&gt;Tentative subjects include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paradigms:&lt;/strong&gt; R, C++ (using Rcpp), OpenMP, Bash, git, regex;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reproducible Research:&lt;/strong&gt; &lt;code&gt;knitr&lt;/code&gt;, &lt;code&gt;rmarkdown&lt;/code&gt;, and &lt;code&gt;packrat&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Computing Theory:&lt;/strong&gt; Control logic, scoping logic, big O, data structures, object-oriented programming;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Algorithms:&lt;/strong&gt; SLR, MLR, ANOVA, Accept-Reject, Probability Integral Transform;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R packages:&lt;/strong&gt; Construction of R-packages using &lt;code&gt;devtools&lt;/code&gt;, &lt;code&gt;roxygen2&lt;/code&gt;, &lt;code&gt;profvis&lt;/code&gt;, and &lt;code&gt;testthat&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visualizations:&lt;/strong&gt; Exploratory Data Analysis with Base R and &lt;code&gt;ggplot2&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;textbooks&#34;&gt;Textbooks&lt;/h1&gt;
+
+&lt;p&gt;Please note that these textbooks are legally available online for free.
+If you wish to purchase a paper copy, you are more than welcome to obtain one.
+However, the references throughout the course will be primarily based upon
+the electronic versions.&lt;/p&gt;
+
+&lt;p&gt;The following texts will be heavily referenced:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Required:&lt;/strong&gt; &lt;a href=&#34;http://adv-r.had.co.nz/&#34;&gt;Advanced R Programming&lt;/a&gt; Hadley Wickham&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Required:&lt;/strong&gt; &lt;a href=&#34;http://r4ds.had.co.nz/&#34;&gt;R for Data Science&lt;/a&gt; Garrett Grolemund and Hadley Wickham&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Required:&lt;/strong&gt; &lt;a href=&#34;http://www.burns-stat.com/pages/Tutor/R_inferno.pdf&#34;&gt;The R Inferno&lt;/a&gt; Patrick Burns&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following textbooks are &lt;em&gt;helpful&lt;/em&gt;, but not necessary to succeed in the course:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Supplemental:&lt;/strong&gt; &lt;a href=&#34;http://www.ms.unimelb.edu.au/~odj/Teaching/MAST30025/spuRs_reformatted_part1.pdf&#34;&gt;Introduction to Scientific Programming and Simulation Using R&lt;/a&gt; Owen Jones, Robert Maillardet, and Andrew Robinson&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supplemental:&lt;/strong&gt; &lt;a href=&#34;https://cran.r-project.org/doc/manuals/R-intro.pdf&#34;&gt;An introduction to R&lt;/a&gt; Jeffrey Dean and Sanjay Ghemawat&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supplemental:&lt;/strong&gt; &lt;a href=&#34;http://vufind.carli.illinois.edu/vf-uiu/Record/uiu_6955421&#34;&gt;The Art of R Programming&lt;/a&gt; Norman Matloff&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supplemental:&lt;/strong&gt; &lt;a href=&#34;http://r-pkgs.had.co.nz/&#34;&gt;R Packages&lt;/a&gt; Hadley Wickham&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supplemental:&lt;/strong&gt; &lt;a href=&#34;https://github.com/hadley/ggplot2-book&#34;&gt;ggplot2: Elegant Graphics for Data Analysis [2nd Edition - GitHub Only]&lt;/a&gt; Hadley Wickham&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h1&gt;
+
+&lt;p&gt;Prior to taking this course, one should have acquired the following knowledge:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://catalog.illinois.edu/courses-of-instruction/stat/&#34;&gt;STAT 200: Statistical Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ability to collaborate in a group project
+
+&lt;ul&gt;
+&lt;li&gt;Listen, provide &lt;em&gt;constructive&lt;/em&gt; dialog, contribute work&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Motivation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you have taken a higher-level course, e.g. STAT 400 or STAT 425,
+this satisfies the STAT 200 requirement.&lt;/p&gt;
+
+&lt;h1 id=&#34;email-policy&#34;&gt;Email Policy&lt;/h1&gt;
+
+&lt;p&gt;All questions related to this class should be asked on piazza except for private
+issues (e.g. missing exams). Note that posting anonymous questions on
+piazza is not &lt;strong&gt;allowed&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;All course emails must contain in the subject line &lt;code&gt;[STAT 385]&lt;/code&gt; followed by
+a description of the e-mail&amp;rsquo;s contents and should be sent from an
+&lt;code&gt;@illinois.edu&lt;/code&gt; email address. Failure to adhere to this policy
+will either result in:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;An automated message as a reminder of this policy;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The email is ignored.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;bug-bounty-program&#34;&gt;Bug Bounty Program&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;To err is human, but to really foul things up you need a computer.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;mdash; &lt;strong&gt;Paul R. Ehrlich&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The course staff is a &lt;em&gt;human&lt;/em&gt;. As a result, they will sometimes introduce &lt;em&gt;bugs&lt;/em&gt;
+as material becomes transcribed into a computer. Though, the course staff will
+try their very best to minimize the amount of &lt;em&gt;bugs&lt;/em&gt; in the course material.
+If he does create a &lt;em&gt;bug&lt;/em&gt;, please let him know. Depending on the severity, you
+will be compensated with:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Severe: Unintentionally, part of the code is fundamentally flawed.
+
+&lt;ul&gt;
+&lt;li&gt;Fix and/or patch is &lt;em&gt;required&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reward:&lt;/strong&gt; Bug Hall of Fame and 1 E.C. point&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Medium: Logical flaws that occur during class.
+
+&lt;ul&gt;
+&lt;li&gt;Must explain the flaw and a potential solution&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reward:&lt;/strong&gt; Large candy bar of your choice&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Trivial: Typos and Grammar
+
+&lt;ul&gt;
+&lt;li&gt;Minor nuisances that if corrected via a pull request will be appreciated.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reward:&lt;/strong&gt; For every 20 typos and grammar bits a large candy bar of your choice&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As an added plus, there are many good discussions that arise due to mistakes&amp;hellip;&lt;/p&gt;
+
+&lt;h1 id=&#34;attendence&#34;&gt;Attendence&lt;/h1&gt;
+
+&lt;p&gt;You are expected to attend all lectures. Each lecture will have its own
+magic word that you are responsible for entering into a form link that will be
+provided on piazza. In order to be eligible to receive attendance points, you
+must be &lt;em&gt;in class&lt;/em&gt;, enter the magic word within 5 minutes after it is given,
+and stay for entire duration of class. Periodically, checks will be performed to
+verify the attendance. Students who have entered the magic word but are not
+present, will fail class and will have an academic integrity
+violation opened against them. Please note, every student is eligible to miss
+&lt;em&gt;four&lt;/em&gt; class periods without needing to provide a reason. Any known or potential
+extracurricular conflicts should be discussed in person with the instructor
+during the first week of classes, or as soon as they arise. Please be proactive.&lt;/p&gt;
+
+&lt;p&gt;The exact method that we will use to calculate attendance at the end of the
+semester is given by:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;my_attendence = function(N, N_max){
+    round( min( c( 1, N/(N_max - 4) ) )*100, 2)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where &lt;code&gt;N&lt;/code&gt; denotes the number of times a student has attended class and &lt;code&gt;N_max&lt;/code&gt;
+denotes the maximum number of classes where attendence was taken.&lt;/p&gt;
+
+&lt;h1 id=&#34;exercises&#34;&gt;Exercises&lt;/h1&gt;
+
+&lt;p&gt;There will be &lt;em&gt;no&lt;/em&gt; formal homework assignments this semester. Instead, there
+will be  &lt;strong&gt;five&lt;/strong&gt; to &lt;strong&gt;eight&lt;/strong&gt; different excerise sets that will be made
+available throughout the semester that students are highly encouraged to do.
+Please note, that the exercises are done without a solution key being
+made available.&lt;/p&gt;
+
+&lt;h1 id=&#34;exams&#34;&gt;Exams&lt;/h1&gt;
+
+&lt;p&gt;There are &lt;strong&gt;two&lt;/strong&gt; exams for this course. The first exam is a midterm that is
+worth &lt;strong&gt;20%&lt;/strong&gt; and the second exam is a final exam worth &lt;strong&gt;25%&lt;/strong&gt; that takes
+place at 8:00-11:00 a.m. on Monday, May 8. The midterm and final exam &lt;em&gt;may&lt;/em&gt; have
+a take-home portion in addition to a traditional in class examination.
+In such cases, the take-home portion would be due within 24-48 hours after the
+start of the exam. The take-home portion of the exam may not be discussed with
+your classmates.&lt;/p&gt;
+
+&lt;h1 id=&#34;group-project&#34;&gt;Group Project&lt;/h1&gt;
+
+&lt;p&gt;During the semester, students are expected to work on a capstone project within
+a group. The capstone project is meant to either showcase a newly implemented
+statistical algorithms OR extend existing functions in pre-existing packages.
+Examples of past group projects have included: Data Cleaning Shiny Application,
+LinkedIn Connection Scrapper and Network Visualizer, and Visualization Support
+for Probability Distributions. Students should choose a topic that interests
+them but is reasonable to complete within the scope of the class. Due to the
+amount of projects and the individual demands of each group&amp;rsquo;s project, the
+course staff will only provide &lt;em&gt;advice&lt;/em&gt; &amp;ndash; not code &amp;ndash; during Office Hours.
+Failure to have a working project by the time of the final presentation day
+will result in a severe penalty.&lt;/p&gt;
+
+&lt;p&gt;The groups will be created using the &lt;a href=&#34;http://info.catme.org/&#34;&gt;CATME&lt;/a&gt; system.
+The use of this system is meant to create &lt;strong&gt;strong&lt;/strong&gt; groups that are able to
+effectively work together. Specifically, students will be grouped together by
+leadership styles, schedule availability and skill level. Each group will
+have between 3 to 5 students.&lt;/p&gt;
+
+&lt;p&gt;There are four different phases of the group project: &lt;strong&gt;Project Proposal Presentation&lt;/strong&gt;,
+&lt;strong&gt;Progress Report Presentation&lt;/strong&gt;, &lt;strong&gt;Final Project Presentation&lt;/strong&gt;, and
+&lt;strong&gt;Final Project Report&lt;/strong&gt;. Each of the phases is worth &lt;strong&gt;10%&lt;/strong&gt;  making the
+overall project grade &lt;strong&gt;40%&lt;/strong&gt; of the course total.  At the end, students will be
+asked to perform peer evaluations of group members that may influence the grades
+of students who do not contribute equally to the group project. As a results,
+students should view project grades as being tentative.&lt;/p&gt;
+
+&lt;h2 id=&#34;project-proposal-presentation&#34;&gt;Project Proposal Presentation&lt;/h2&gt;
+
+&lt;p&gt;The project proposal presentation must be &lt;strong&gt;5 - 7 minutes&lt;/strong&gt; in duration and
+consist of no more than 12 slides (not including reference slides).&lt;/p&gt;
+
+&lt;p&gt;Within the group project proposal, students should answer the following
+questions:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Problem / Topic:&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What problem or topic are you addressing?&lt;/li&gt;
+&lt;li&gt;Why is it interesting or important?&lt;/li&gt;
+&lt;li&gt;What evidence supports this conclusion?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Idea:&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is your idea for addressing the problem or topic?&lt;/li&gt;
+&lt;li&gt;Why is it original relative to prior work?&lt;/li&gt;
+&lt;li&gt;Where did the idea come from?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevance:&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How does your idea match with the course’s focus on statistical programming?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Method:&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is your general plan for realizing the idea?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feasibility:&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Is this project able to be completed before the end of the semester?&lt;/li&gt;
+&lt;li&gt;What steps must occur to complete the project before the end of the semester?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Schedule and Work Division:&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is the work plan to accomplish the necessary tasks before the end of the semester?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Preliminary Work:&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What have you done or learned anything so far for the project?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;References:&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Provide a list of papers or items you have read to write this proposal.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;progress-report-presentation&#34;&gt;Progress Report Presentation&lt;/h2&gt;
+
+&lt;p&gt;The project progress report presentation up should describe the present status
+of the project. The progress presentation must be &lt;strong&gt;5 - 7 minutes&lt;/strong&gt; in duration
+and consist of no more than 12 slides. Specifically, the slides should address
+the following points:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;How is the project progressing?&lt;/li&gt;
+&lt;li&gt;What has been accomplished thus far?&lt;/li&gt;
+&lt;li&gt;What have you learned?&lt;/li&gt;
+&lt;li&gt;What issues have arisen?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Please &lt;strong&gt;avoid&lt;/strong&gt; including code snippets. However, clear functional output is
+okay.&lt;/p&gt;
+
+&lt;p&gt;The score for the progress report is based on how much work has been completed
+since the project proposal was initially submitted.&lt;/p&gt;
+
+&lt;h2 id=&#34;final-project-presentation&#34;&gt;Final Project Presentation&lt;/h2&gt;
+
+&lt;p&gt;There will be 15 minutes during class that is allocated to the presentation of
+your project.  Please focus on the outcomes of the project. The score is based
+solely on how well the project outcomes and methods used are conveyed. There
+should be no more than 12 slides (not including references) in the presentation.&lt;/p&gt;
+
+&lt;h2 id=&#34;final-report&#34;&gt;Final Report&lt;/h2&gt;
+
+&lt;p&gt;Please prepare the final report using the following outline:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Introduction&lt;/li&gt;
+&lt;li&gt;Related Work&lt;/li&gt;
+&lt;li&gt;Method&lt;/li&gt;
+&lt;li&gt;Results&lt;/li&gt;
+&lt;li&gt;Discussion&lt;/li&gt;
+&lt;li&gt;Conclusion&lt;/li&gt;
+&lt;li&gt;References&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Reports will be graded based upon project outcomes, the execution of methods
+described, and writing quality.&lt;/p&gt;
+
+&lt;h1 id=&#34;software&#34;&gt;Software&lt;/h1&gt;
+
+&lt;p&gt;The course will use and present the &lt;strong&gt;R&lt;/strong&gt; statistical computing language as well
+as different parts of C++ through &lt;a href=&#34;http://gallery.rcpp.org/&#34;&gt;Rcpp&lt;/a&gt;. The
+integrated developer environment that we will use to explore &lt;em&gt;R&lt;/em&gt; is
+&lt;a href=&#34;https://www.rstudio.com/products/rstudio/&#34;&gt;RStudio IDE&lt;/a&gt; made by
+&lt;a href=&#34;https://www.rstudio.com&#34;&gt;RStudio Inc&lt;/a&gt;. You are free to use any language you
+choose, but the course staff will only be able to provide support for &lt;strong&gt;R&lt;/strong&gt;. If
+you would like to use another statistical computing environment, please alert
+the instructor ASAP to discuss feasibility.&lt;/p&gt;
+
+&lt;h1 id=&#34;course-grades&#34;&gt;Course Grades&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Percentage&lt;/th&gt;
+&lt;th&gt;Total Points&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Participation&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Midterm Exam&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Final Exam&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Group Project&lt;/td&gt;
+&lt;td&gt;4 x 10&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Course Total&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;100&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&#34;grading-scale&#34;&gt;Grading Scale&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;A+&lt;/th&gt;
+&lt;th&gt;A&lt;/th&gt;
+&lt;th&gt;A-&lt;/th&gt;
+&lt;th&gt;B+&lt;/th&gt;
+&lt;th&gt;B&lt;/th&gt;
+&lt;th&gt;B-&lt;/th&gt;
+&lt;th&gt;C+&lt;/th&gt;
+&lt;th&gt;C&lt;/th&gt;
+&lt;th&gt;C-&lt;/th&gt;
+&lt;th&gt;D+&lt;/th&gt;
+&lt;th&gt;D&lt;/th&gt;
+&lt;th&gt;D-&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;TBD&lt;/td&gt;
+&lt;td&gt;96%&lt;/td&gt;
+&lt;td&gt;93%&lt;/td&gt;
+&lt;td&gt;90%&lt;/td&gt;
+&lt;td&gt;86%&lt;/td&gt;
+&lt;td&gt;83%&lt;/td&gt;
+&lt;td&gt;80%&lt;/td&gt;
+&lt;td&gt;76%&lt;/td&gt;
+&lt;td&gt;73%&lt;/td&gt;
+&lt;td&gt;70%&lt;/td&gt;
+&lt;td&gt;66%&lt;/td&gt;
+&lt;td&gt;63%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Grades are not curved or adjusted. This is not to dishearten students, but to
+let them know that their grade is based on individual effort and not on
+comparative effort.&lt;/p&gt;
+
+&lt;h1 id=&#34;academic-integrity&#34;&gt;Academic Integrity&lt;/h1&gt;
+
+&lt;p&gt;The official University of Illinois policy related to academic integrity can be
+found in Article 1, Part 4 of the Student Code. &lt;a href=&#34;http://studentcode.illinois.edu/article1_part4_1-402.html&#34;&gt;Section 1-402 in particular
+outlines behavior which is considered an infraction of academic
+integrity.&lt;/a&gt;
+These sections of the Student Code will be upheld in the STAT 385 classroom.
+Any violations will be dealt with in a swift, fair and strict manner.&lt;/p&gt;
+
+&lt;p&gt;You may discuss methods for completing the exercise assignments with other
+students, but the execution of these methods and the preparation of the document
+must be done independently. Sufficient evidence of sharing results, collaborating
+on written assignments, or simply relying on internet resources will result in a
+score of 0 for the assignment. There can be no discussion with other students or
+collaboration of any kind on the take-home exams.&lt;/p&gt;
+
+&lt;p&gt;To ensure that you do not violate the academic integrity policies, all code and
+solutions should be prepared yourself. All code should be typed yourself,
+&lt;strong&gt;not&lt;/strong&gt; copy and pasted. (Except for code provided in class or in the textbook.)&lt;/p&gt;
+
+&lt;h1 id=&#34;changes&#34;&gt;Changes&lt;/h1&gt;
+
+&lt;p&gt;The instructor reserves the right to make any changes he considers academically
+advisable. Such changes, if any, will be announced in class. Please note that it
+is your responsibility to attend the class and keep track of the proceedings.&lt;/p&gt;
+
+&lt;p&gt;Also, if changes are made&amp;hellip;&lt;/p&gt;
+
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/WpE_xMRiCLE&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to STAT 385 @ UIUC</title>
+      <link>/2017/01/17/welcome-to-stat-385--uiuc/</link>
+      <pubDate>Tue, 17 Jan 2017 21:13:14 -0500</pubDate>
+      
+      <guid>/2017/01/17/welcome-to-stat-385--uiuc/</guid>
+      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
+
+/BLOGDOWN-BODY-BEFORE --&gt;
+
+&lt;div id=&#34;welcome&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Welcome&lt;/h1&gt;
+&lt;p&gt;Welcome to STAT 385: Statistics Programming Methods at UIUC. The following will serve as our course website. Please excuse the dust as it becomes sea worthy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;course-information&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Course Information&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;a href=&#34;http://ada.fs.illinois.edu/0012Plan1.gif&#34;&gt;Noyes 161&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; Monday, Wednesday, and Friday, 3:00 PM - 3:50 PM&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;#####../content/post/2017-01-17-welcome-to-stat385_files/figure-html/noyes_map-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Generated using:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Load ggplot2 mapping extension
+library(&amp;quot;ggmap&amp;quot;)
+
+# Capture Image from Google Maps
+noyes_map = get_map(location = c(lon = -88.225840, lat = 40.108322),
+                     color = &amp;quot;color&amp;quot;,
+                     source = &amp;quot;google&amp;quot;,
+                     maptype = &amp;quot;satellite&amp;quot;,
+                     zoom = 18)
+
+# Classroom location
+pt = data.frame(lat = 40.108322, lon = -88.225840)
+
+# Map away
+ggmap(noyes_map) + geom_point(data = pt, aes(x = lon, y = lat), 
+                               color = &amp;quot;red&amp;quot;, size = 5, alpha = 0.5) + 
+                    xlab(&amp;quot;Longitude&amp;quot;) + ylab(&amp;quot;Latitude&amp;quot;) +
+                    ggtitle(&amp;quot;Noyes Center&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;!-- BLOGDOWN-HEAD
+
+
+
+
+/BLOGDOWN-HEAD --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

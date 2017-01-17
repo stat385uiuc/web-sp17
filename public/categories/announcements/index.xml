@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Announcements on Lithium Theme</title>
+    <link>/categories/announcements/index.xml</link>
+    <description>Recent content in Announcements on Lithium Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/announcements/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome to STAT 385 @ UIUC</title>
+      <link>/2017/01/17/welcome-to-stat-385--uiuc/</link>
+      <pubDate>Tue, 17 Jan 2017 21:13:14 -0500</pubDate>
+      
+      <guid>/2017/01/17/welcome-to-stat-385--uiuc/</guid>
+      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
+
+/BLOGDOWN-BODY-BEFORE --&gt;
+
+&lt;div id=&#34;welcome&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Welcome&lt;/h1&gt;
+&lt;p&gt;Welcome to STAT 385: Statistics Programming Methods at UIUC. The following will serve as our course website. Please excuse the dust as it becomes sea worthy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;course-information&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Course Information&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;a href=&#34;http://ada.fs.illinois.edu/0012Plan1.gif&#34;&gt;Noyes 161&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; Monday, Wednesday, and Friday, 3:00 PM - 3:50 PM&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;#####../content/post/2017-01-17-welcome-to-stat385_files/figure-html/noyes_map-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Generated using:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Load ggplot2 mapping extension
+library(&amp;quot;ggmap&amp;quot;)
+
+# Capture Image from Google Maps
+noyes_map = get_map(location = c(lon = -88.225840, lat = 40.108322),
+                     color = &amp;quot;color&amp;quot;,
+                     source = &amp;quot;google&amp;quot;,
+                     maptype = &amp;quot;satellite&amp;quot;,
+                     zoom = 18)
+
+# Classroom location
+pt = data.frame(lat = 40.108322, lon = -88.225840)
+
+# Map away
+ggmap(noyes_map) + geom_point(data = pt, aes(x = lon, y = lat), 
+                               color = &amp;quot;red&amp;quot;, size = 5, alpha = 0.5) + 
+                    xlab(&amp;quot;Longitude&amp;quot;) + ylab(&amp;quot;Latitude&amp;quot;) +
+                    ggtitle(&amp;quot;Noyes Center&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+
+&lt;!-- BLOGDOWN-HEAD
+
+
+
+
+/BLOGDOWN-HEAD --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

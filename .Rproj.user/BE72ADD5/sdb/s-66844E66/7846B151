@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# STAT 385 Course Website for Spring 2017\n\nWithin this repository, the source code that is behind the [STAT 385 @ UIUC](http://stat385.thecoatlessprofessor.com) Spring 2017 Course Website can be found.\n\nGenerally speaking, the website is made using the following tools:\n\n- The backend of the site is powered by [`hugo`](https://gohugo.io/), which enables the static generation of files from [markdown](https://daringfireball.net/projects/markdown/) documents.\n- The service that is hosting the website is [GitHub Pages](https://pages.github.com/) via the `gh-pages` branch. \n- To locally preview the website and convert `.Rmd` files to `.md` files, the [`blogdown`](https://github.com/rstudio/blogdown) package is employed which provides an interfaces with [`rmarkdown`](https://cran.r-project.org/web/packages/rmarkdown).\n- The display of LaTeX math is done via [MathJax](https://www.mathjax.org/) code snippet that must be enabled within the post front matter with the option `mathjax:true`\n- The custom domain name of `stat385.thecoatlessprofessor.com` instead of `username.github.io/repo` is done using the `CNAME` configuration file.\n\nFor more information, please refer to a future post on <http://thecoatlessprofessor.com/>.\n\n# Structure\n\nThe folder structure of the website is given as:\n\n- Hugo specific\n    - **`_layouts`:** HTML Layout Structure\n    - **`_blogdown`:** Posts converted to `.md` from `.Rmd`\n    - **`_public`:** Rendered version of site\n    - **`_themes`:** Installed [hugo themes](http://themes.gohugo.io/)\n- Course Content\n    - **`assets`:** Generation files for HW and Lecture Slides\n    - **`_content`:** Source of _posts_ and main menu pages.\n\n# License\n\n![The work within this repository is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).](assets/images/cc.png)",
+    "created" : 1484625493340.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2320233501",
+    "id" : "7846B151",
+    "lastKnownWriteTime" : 1484625383,
+    "last_content_update" : 1484625383,
+    "path" : "~/BoxSync/stat385_sp17/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}

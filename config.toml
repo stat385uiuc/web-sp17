@@ -1,0 +1,37 @@
+baseurl = "/"
+relativeurls = true
+languageCode = "en-us"
+title = "Lithium Theme"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Syllabus"
+    url = "/Syllabus/"
+[[menu.main]]
+    name = "Schedule"
+    url = "/Schedule/"
+[[menu.main]]
+    name = "Source"
+    url = "https://github.com/stat385uiuc/sp17"
+
+[params]
+    description = "STAT 385 @ UIUC"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.9.0"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    [params.logo]
+    text = "STAT 385 @ UIUC"
+    #url = "logo.png"
+    #width = 50
+    #height = 50
+    #alt = "Logo"
+

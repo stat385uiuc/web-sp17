@@ -1,0 +1,47 @@
+---
+title: "Welcome to STAT 385 @ UIUC"
+author: "James Balamuta"
+date: 2017-01-17T21:13:14-05:00
+categories: ["announcements"]
+tags: ["course"]
+---
+
+# Welcome
+
+Welcome to STAT 385: Statistics Programming Methods at UIUC. 
+The following will serve as our course website. Please excuse the dust as it 
+becomes sea worthy. 
+
+# Course Information
+
+**Location:** [Noyes 161](http://ada.fs.illinois.edu/0012Plan1.gif)
+
+**Time:** Monday, Wednesday, and Friday, 3:00 PM - 3:50 PM
+
+
+```{r noyes_map, cache = T, message = F, echo = F}
+# Load ggplot2 mapping extension
+library("ggmap")
+
+# Capture Image from Google Maps
+noyes_map = get_map(location = c(lon = -88.225840, lat = 40.108322),
+                     color = "color",
+                     source = "google",
+                     maptype = "satellite",
+                     zoom = 18)
+
+# Classroom location
+pt = data.frame(lat = 40.108322, lon = -88.225840)
+
+# Map away
+ggmap(noyes_map) + geom_point(data = pt, aes(x = lon, y = lat), 
+                               color = "red", size = 5, alpha = 0.5) + 
+                    xlab("Longitude") + ylab("Latitude") +
+                    ggtitle("Noyes Center") 
+```
+
+Generated using: 
+
+```{r eval = F}
+<<noyes_map>>
+```

@@ -1,0 +1,18 @@
+"0","# Load ggplot2 mapping extension
+library(""ggmap"")
+# Capture Image from Google Maps
+noyes_map = get_map(location = c(lon = -88.225840, lat = 40.108322),
+                     color = ""color"",
+                     source = ""google"",
+                     maptype = ""satellite"",
+                     zoom = 19)
+"
+"2","Map from URL : http://maps.googleapis.com/maps/api/staticmap?center=40.108322,-88.22584&zoom=19&size=640x640&scale=2&maptype=satellite&language=en-EN&sensor=false
+"
+"0","# Classroom location"
+"0","pt = data.frame(lat = 40.108322, lon = -88.225840)"
+"0","# Map away"
+"0","ggmap(noyes_map) + geom_point(data = pt, aes(x = lon, y = lat), "
+"0","                               color = ""red"", size = 5, alpha = 0.5) + "
+"0","                    xlab(""Longitude"") + ylab(""Latitude"") +"
+"0","                    ggtitle(""Noyes Center"") "

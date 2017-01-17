@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.18.1" />
+
+
+<title>Welcome to STAT 385 @ UIUC - Lithium Theme</title>
+<meta property="og:title" content="Welcome to STAT 385 @ UIUC - Lithium Theme">
+
+
+
+  
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="../../../../css/main.css" media="all">
+
+
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="../../../../" class="nav-logo">
+    <h3>STAT 385 @ UIUC</h3>
+    
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="../../../../schedule/">Schedule</a></li>
+    
+    <li><a href="https://github.com/stat385uiuc/sp17">Source</a></li>
+    
+    <li><a href="../../../../syllabus/">Syllabus</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Welcome to STAT 385 @ UIUC</h1>
+
+    
+    <span class="article-date">January 17, 2017</span>
+    
+
+    <div class="article-content">
+
+
+<div id="welcome" class="section level1">
+<h1>Welcome</h1>
+<p>Welcome to STAT 385: Statistics Programming Methods at UIUC. The following will serve as our course website. Please excuse the dust as it becomes sea worthy.</p>
+</div>
+<div id="course-information" class="section level1">
+<h1>Course Information</h1>
+<p><strong>Location:</strong> <a href="http://ada.fs.illinois.edu/0012Plan1.gif">Noyes 161</a></p>
+<p><strong>Time:</strong> Monday, Wednesday, and Friday, 3:00 PM - 3:50 PM</p>
+<p><img src="figures/noyes_map-1.png" width="672" /></p>
+<p>Generated using:</p>
+<pre class="r"><code># Load ggplot2 mapping extension
+library(&quot;ggmap&quot;)
+
+# Capture Image from Google Maps
+noyes_map = get_map(location = c(lon = -88.225840, lat = 40.108322),
+                     color = &quot;color&quot;,
+                     source = &quot;google&quot;,
+                     maptype = &quot;satellite&quot;,
+                     zoom = 18)
+
+# Classroom location
+pt = data.frame(lat = 40.108322, lon = -88.225840)
+
+# Map away
+ggmap(noyes_map) + geom_point(data = pt, aes(x = lon, y = lat), 
+                               color = &quot;red&quot;, size = 5, alpha = 0.5) + 
+                    xlab(&quot;Longitude&quot;) + ylab(&quot;Latitude&quot;) +
+                    ggtitle(&quot;Noyes Center&quot;) </code></pre>
+</div>
+
+
+
+    </div>
+  </article>
+
+  
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="../../../../index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="../../../../images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/r.min.js"></script>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/yaml.min.js"></script>
+    
+    <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    });
+    </script>
+    <script type="text/javascript"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+  </body>
+</html>
+
