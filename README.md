@@ -28,3 +28,4 @@ The folder structure of the website is given as:
 # License
 
 ![The work within this repository is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).](assets/images/cc.png)
+
