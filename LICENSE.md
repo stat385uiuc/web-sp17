@@ -1,5 +1,5 @@
-Copyright: James J Balamuta
-Year: 2016
+﻿Copyright: James J Balamuta
+Year: 2017
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
 
